@@ -262,3 +262,29 @@ body {
   color: #c2c25a;
   transform: translateY(-1.875rem);
 }
+
+.main-page{
+  text-align: center;
+  margin: 5rem ;
+}
+.main-page a {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.main-page button {
+  border: none;
+  color: white;
+  background-color: rgb(138, 52, 52);
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+
+h4 {
+  text-align: center;
+  color: maroon;
+  padding: 1rem;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
