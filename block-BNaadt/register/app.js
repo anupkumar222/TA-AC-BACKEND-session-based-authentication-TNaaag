@@ -6,6 +6,7 @@ var logger = require('morgan');
 var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
+var flash = require('connect-flash');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -33,6 +34,8 @@ app.use(session({
   resave: false,
   store: new MongoStore({ mongooseConnection: mongoose.connection })
 }))
+
+app.use(flash());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

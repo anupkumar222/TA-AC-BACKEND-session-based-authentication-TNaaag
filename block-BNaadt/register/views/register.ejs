@@ -6,11 +6,17 @@
   </head>
   <body>
     <form class="signup-form" action="/users/register" method="POST">
-
+      
+        
+      
       <div class="form-header">
         <h1>Student Registration</h1>
+        <% if(error) { %>
+        
+        <p><%= error %></p> 
+        <% } %>
       </div>
-
+      
       <div class="form-body">
 
         <div class="horizontal-group">
