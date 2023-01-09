@@ -6,7 +6,7 @@ Add flash messages for:-
 
 - if email is not unique
 - if password is less than 4 chars
-- redirect to registration page in above condition with an appropriate flash messge
+- redirect to registration page in above condition with an appropriate flash message
 
 2. During login
 
