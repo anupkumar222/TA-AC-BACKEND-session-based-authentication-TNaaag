@@ -288,3 +288,16 @@ h4 {
   font-size: 3rem;
   margin-top: 2rem;
 }
+
+.logout {
+display: flex;
+justify-content: center;
+text-decoration: none;
+}
+.logout button {
+  padding: 0.5rem 2rem;
+  background-color: yellow;
+  color: maroon;
+  font-size: 1.5rem;
+  border: none;
+}
