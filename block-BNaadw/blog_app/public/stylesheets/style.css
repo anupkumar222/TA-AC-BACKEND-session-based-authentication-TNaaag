@@ -301,3 +301,59 @@ text-decoration: none;
   font-size: 1.5rem;
   border: none;
 }
+.block-article {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  /* text-align: center; */
+  justify-content: center;
+}
+
+.all-logout {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.flex {
+  display: flex;
+
+}
+
+.detail_form {
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  /* margin: 0 auto; */
+}
+
+.detail_form input {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.detail_form textarea {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.container-80 {
+  width: 80%;
+  margin: 2rem auto;
+}
+.margin {
+  margin: 1rem 0;
+}
+
+.edit_cmnt {
+  justify-content: space-between;
+}
+
+.article {
+  justify-content: space-between;
+}
+.form {
+  flex-direction: column;
+  width: 40%;
+}

@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get("/register", (req, res, next) => {
-  console.log(error);
+  // console.log(error);
   res.render('register', { error: req.flash("error")[0]})
 })
 
@@ -50,7 +50,7 @@ router.post('/login', (req, res, next) => {
        return res.redirect('/users')
       }
       req.session.userId = user.id;
-      res.redirect('/dashboard')
+      res.redirect('/articles')
     })
   })
 })
